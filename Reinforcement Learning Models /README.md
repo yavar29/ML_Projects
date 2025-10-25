@@ -91,30 +91,40 @@ n-Step Double Q-Learning → [0.83, 0.86, 0.88, 0.91, 0.93, 0.94, 0.94, 0.95, 0.
 
 ---
 
-## 🧪 Usage
+## 🧩 Insights
 
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/yavar29/ML_Projects.git
-cd "Deep Learning Models/GridWorld_RL"
+- n-Step Double Q-Learning significantly reduces overestimation bias by decoupling action selection and evaluation.
+- The addition of n-step returns accelerates convergence.
+- SARSA, being on-policy, tends to be more stable but learns slower.
+- The tuned parameters demonstrate how critical learning rate and ε-decay scheduling are to convergence.
 
-### 2️⃣ Install Dependencies
-```bash
-pip install numpy matplotlib optuna
+---
 
-### 3️⃣ Run Training & Comparison
-```bash
-python gridworld_main.py
-
-### 4️⃣ Plots
+##  Plots
 - Total Reward per Episode
 - Epsilon Decay Curve
 - SARSA vs n-Step Double Q-Learning
 
 ---
 
-## Suggested Directory Structure
+## 🧪 Usage
+
 ```bash
+### 1️⃣ Clone Repository
+
+git clone https://github.com/yavar29/ML_Projects.git
+cd "Deep Learning Models/GridWorld_RL"
+
+### 2️⃣ Install Dependencies
+pip install numpy matplotlib optuna
+
+### 3️⃣ Run Training & Comparison
+python gridworld_main.py
+
+
+---
+
+## Suggested Directory Structure
 GridWorld_RL/
 ├── gridworld_env.py            # Custom environment class
 ├── sarsa.py                    # SARSA implementation
@@ -126,12 +136,6 @@ GridWorld_RL/
 
 ---
 
-## 🧩 Insights
-
-- n-Step Double Q-Learning significantly reduces overestimation bias by decoupling action selection and evaluation.
-- The addition of n-step returns accelerates convergence.
-- SARSA, being on-policy, tends to be more stable but learns slower.
-- The tuned parameters demonstrate how critical learning rate and ε-decay scheduling are to convergence.
 
 
 

@@ -76,27 +76,29 @@ The model is designed to handle **36 output classes** (26 alphabets + 10 digits)
 
 ---
 
-## 🧪 Usage
-
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/yavar29/ML_Projects.git
-cd "Deep Learning Models/EMNIST"
-
-### 2️⃣ Install Dependencies
-```bash
-pip install torch torchvision matplotlib seaborn scikit-learn torchinfo
-
-### 3️⃣ Run Training Script
-```bash
-python EMNIST_CNN.py
-
----
-
 ##🧩 Future Enhancements
 
 - Experiment with ResNet or EfficientNet architectures.
 - Apply transfer learning using pretrained models on handwriting datasets.
 - Use mixed precision training to reduce memory usage.
 - Deploy using Streamlit or Flask for real-time character recognition.
+
+---
+
+## 🧪 Usage
+
+```bash
+### 1️⃣ Clone Repository
+git clone https://github.com/yavar29/ML_Projects.git
+cd "Deep Learning Models/EMNIST"
+
+### 2️⃣ Install Dependencies
+pip install torch torchvision matplotlib seaborn scikit-learn torchinfo
+
+### 3️⃣ Run Training Script
+python EMNIST_CNN.py
+
+---
+
+
 
