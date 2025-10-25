@@ -158,7 +158,7 @@ Former **Software Engineering Analyst @ Accenture (2.5+ years)**
 
 ---
 
-## 📚 References
+## 📚 References:
 - Vaswani et al. (2017). *Attention Is All You Need*  
 - [PyTorch Forum: Transformer Encoder for Classification](https://discuss.pytorch.org/t/nn-transformerencoder-for-classification/83021)  
 - [spaCy Tokenizer API](https://spacy.io/api/tokenizer)  
