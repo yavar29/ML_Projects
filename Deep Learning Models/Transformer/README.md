@@ -154,7 +154,7 @@ Former **Software Engineering Analyst @ Accenture (2.5+ years)**
 **Focus Areas:** Deep Learning · NLP · Transformers · Applied AI  
 
 📫 **LinkedIn:** [linkedin.com/in/yavarkhan](https://linkedin.com/in/yavarkhan)  
-💻 **GitHub:** [github.com/yavarkhan](https://github.com/yavarkhan)
+💻 **GitHub:** [github.com/yavarkhan](https://github.com/yavar29)
 
 ---
 
